@@ -1,0 +1,33 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "A handlebars app to receive hamburger orders",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdgarAhDzib/burger.git"
+  },
+  "keywords": [
+    "Handlebars",
+    "node",
+    "express",
+    "SQL"
+  ],
+  "author": "Edgar Martin del Campo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdgarAhDzib/burger/issues"
+  },
+  "homepage": "https://github.com/EdgarAhDzib/burger#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.6",
+    "mysql": "^2.12.0",
+    "sequelize": "^3.25.1"
+  }
+}
